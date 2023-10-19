@@ -11,7 +11,7 @@ jobs:
             command: pip install -r reuquirements.txt
         - run:
             name: Run tests 
-            command: oytest
+            command: pytest
 
 workflows:
   version: 2
