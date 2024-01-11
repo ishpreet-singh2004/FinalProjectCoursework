@@ -1,5 +1,4 @@
 from sys import displayhook
-from tkinter.tix import DisplayStyle
 import matplotlib.pyplot as plt 
 import numpy as np
 import pandas as pd
@@ -10,5 +9,3 @@ pd.options.display.max_rows = 400
 
 data = pd.read_csv('vscode final project data CSV.csv')
 displayhook(data)
-
-
