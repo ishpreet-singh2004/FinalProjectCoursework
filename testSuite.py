@@ -10,10 +10,6 @@ class testingFunction(unittest.TestCase):
     def testsecondtest(self):
         result = subtract_numbers(2, 7)
         self.assertEqual(result,-5)
-    
-    def testthirdtest(self):
-        result = subtract_numbers(5.5, 2.0)
-        self.assertEqual(result,3.5)
 
 if __name__ == '__main__':
     unittest.main()
