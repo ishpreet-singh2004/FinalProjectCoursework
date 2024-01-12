@@ -58,3 +58,27 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
 
             # Show the plot
             plt.show()
+    
+    elif graph_type == 'heatmap_food':
+        # Pivot the data for heatmap
+        heatmap_data = data.pivot(index='Entity', columns='Year', values=['Total food expenditure per year'])
+
+        # Plotting heatmap
+        plt.figure(figsize=(24, 24))
+        sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt=".1f", linewidths=.5)
+        plt.title('Heatmap of Food Expenditure Across Years and Countries')
+        plt.xlabel('Year')
+        plt.ylabel('Entity')
+        plt.show()
+    
+    elif graph_type == 'heatmap_undernourishment':
+        # Pivot the data for heatmap
+        heatmap_data = data.pivot(index='Entity', columns='Year', values=['Prevalence of undernourishment (%)'])
+
+        # Plotting heatmap
+        plt.figure(figsize=(24, 24))
+        sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt=".1f", linewidths=.5)
+        plt.title('Heatmap of Undernourishment Across Years and Countries')
+        plt.xlabel('Year')
+        plt.ylabel('Entity')
+        plt.show()
