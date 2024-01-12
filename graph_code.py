@@ -58,16 +58,29 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Assuming your data is in a DataFrame named 'df'
-# Replace 'df' with the actual variable name if it's different.
-
 # Pivot the data for heatmap
 heatmap_data = data.pivot(index='Entity', columns='Year', values=['Total food expenditure per year'])
 
-# Plotting heatmap
+# Plotting heatmap for food expenditure
 plt.figure(figsize=(24, 24))
 sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt=".1f", linewidths=.5)
 plt.title('Heatmap of Food Expenditure Across Years and Countries')
+plt.xlabel('Year')
+plt.ylabel('Entity')
+plt.show()
+
+#graph 4 
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Pivot the data for heatmap
+heatmap_data = data.pivot(index='Entity', columns='Year', values=['Prevalence of undernourishment (%)'])
+
+# Plotting heatmap for undernourishment
+plt.figure(figsize=(24, 24))
+sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt=".1f", linewidths=.5)
+plt.title('Heatmap of Undernourishment Across Years and Countries')
 plt.xlabel('Year')
 plt.ylabel('Entity')
 plt.show()
