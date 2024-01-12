@@ -2,9 +2,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Assuming your data is in a DataFrame named 'df'
-# Replace 'df' with the actual variable name if it's different.
-
 # List of unique countries in the dataset
 countries = data['Entity'].unique()
 
@@ -13,7 +10,7 @@ for country in countries:
     # Filter data for the specific country
     country_data = data[data['Entity'] == country]
 
-    # Plotting
+    # Plotting for food prices
     plt.figure(figsize=(10, 6))
     plt.plot(country_data['Year'], country_data['Total food expenditure per year'], label='Food Expenditure')
 
@@ -33,9 +30,6 @@ for country in countries:
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Assuming your data is in a DataFrame named 'df'
-# Replace 'df' with the actual variable name if it's different.
-
 # List of unique countries in the dataset
 countries = data['Entity'].unique()
 
@@ -44,7 +38,7 @@ for country in countries:
     # Filter data for the specific country
     country_data = data[data['Entity'] == country]
 
-    # Plotting
+    # Plotting for nourishment
     plt.figure(figsize=(10, 6))
     plt.plot(country_data['Year'], country_data['Prevalence of undernourishment (%)'], label='Undernourishment')
 
@@ -58,3 +52,22 @@ for country in countries:
 
     # Show the plot
     plt.show()
+
+#graph 3 
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Assuming your data is in a DataFrame named 'df'
+# Replace 'df' with the actual variable name if it's different.
+
+# Pivot the data for heatmap
+heatmap_data = data.pivot(index='Entity', columns='Year', values=['Total food expenditure per year'])
+
+# Plotting heatmap
+plt.figure(figsize=(24, 24))
+sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt=".1f", linewidths=.5)
+plt.title('Heatmap of Food Expenditure Across Years and Countries')
+plt.xlabel('Year')
+plt.ylabel('Entity')
+plt.show()
