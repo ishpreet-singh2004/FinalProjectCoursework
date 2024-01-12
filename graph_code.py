@@ -1,4 +1,8 @@
-#Graph 1
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Assuming your data is in a DataFrame named 'df'
+# Replace 'df' with the actual variable name if it's different.
 
 # List of unique countries in the dataset
 countries = data['Entity'].unique()
@@ -6,11 +10,11 @@ countries = data['Entity'].unique()
 # Create a separate plot for each country
 for country in countries:
     # Filter data for the specific country
-    countries_data = data[data['Entity'] == country]
+    country_data = data[data['Entity'] == country]
 
     # Plotting
     plt.figure(figsize=(10, 6))
-    plt.plot(countries_data['Year'], countries_data['Total food expenditure per year'], label='Food Expenditure')
+    plt.plot(country_data['Year'], country_data['Total food expenditure per year'], label='Food Expenditure')
 
     # Adding labels and title
     plt.xlabel('Year')
@@ -22,6 +26,3 @@ for country in countries:
 
     # Show the plot
     plt.show()
-
-
-
