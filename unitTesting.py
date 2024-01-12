@@ -82,3 +82,23 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.xlabel('Year')
         plt.ylabel('Entity')
         plt.show()
+
+    elif graph_type == 'grouped_bar_food':
+        # Plotting grouped bar chart
+        plt.figure(figsize=(30,12))
+        sns.barplot(x='Entity', y='Total food expenditure per year', hue='Year', data=data)
+        plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
+        plt.xlabel('Country')
+        plt.ylabel('Values')
+        plt.xticks(rotation=45, ha='right')
+        plt.show()
+    
+    elif graph_type == 'grouped_bar_undernourishment':
+        # Plotting grouped bar chart
+        plt.figure(figsize=(30, 12))
+        sns.barplot(x='Entity', y='Prevalence of undernourishment (%)', hue='Year', data=data,)
+        plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
+        plt.xlabel('Country')
+        plt.ylabel('Values'
+        plt.xticks(rotation=45, ha='right')
+        plt.show(
