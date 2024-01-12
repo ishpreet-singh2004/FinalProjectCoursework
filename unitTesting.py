@@ -99,6 +99,6 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         sns.barplot(x='Entity', y='Prevalence of undernourishment (%)', hue='Year', data=data,)
         plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
         plt.xlabel('Country')
-        plt.ylabel('Values'
+        plt.ylabel('Values')
         plt.xticks(rotation=45, ha='right')
-        plt.show(
+        plt.show()
