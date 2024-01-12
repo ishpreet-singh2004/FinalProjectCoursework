@@ -110,3 +110,12 @@ plt.xlabel('Country')
 plt.ylabel('Values')
 plt.xticks(rotation=45, ha='right')
 plt.show()
+
+#graph 7 
+import plotly.express as px
+
+# Plotting bubble chart for both variables being compared to each other
+fig = px.scatter(data, x='Total food expenditure per year', y='Prevalence of undernourishment (%)', size='Total food expenditure per year', color='Entity', animation_frame='Year',
+                 title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
+                 labels={'Total food expenditure per year': 'Total Food Expenditure', 'Prevalence of undernourishment (%)': 'Undernourishment'})
+fig.show()
