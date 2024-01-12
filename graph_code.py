@@ -84,3 +84,29 @@ plt.title('Heatmap of Undernourishment Across Years and Countries')
 plt.xlabel('Year')
 plt.ylabel('Entity')
 plt.show()
+
+#graph 5 
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Plotting grouped bar chart for food expenditure 
+plt.figure(figsize=(30,12))
+sns.barplot(x='Entity', y='Total food expenditure per year', hue='Year', data=data)
+plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
+plt.xlabel('Country')
+plt.ylabel('Values')
+plt.xticks(rotation=45, ha='right')
+plt.show()
+
+#graph 6 
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Plotting grouped bar chart for undernourishment
+plt.figure(figsize=(30, 12))
+sns.barplot(x='Entity', y='Prevalence of undernourishment (%)', hue='Year', data=data,)
+plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
+plt.xlabel('Country')
+plt.ylabel('Values')
+plt.xticks(rotation=45, ha='right')
+plt.show()
