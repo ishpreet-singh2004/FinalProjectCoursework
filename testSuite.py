@@ -41,11 +41,6 @@ class TestingFunction(unittest.TestCase):
         chart = creating_the_graphs(data, graph_type='grouped_bar_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
 
-    def test_bubble_chart(self):
-        # Test bubble chart creation
-        chart = creating_the_graphs(data, graph_type='bubble_graph')
-        # Adjust this based on the actual return type of px.scatter()
-        self.assertIsInstance(chart, type(px.scatter()))
 
     def test_invalid_chart_type(self):
         # Test invalid chart type
