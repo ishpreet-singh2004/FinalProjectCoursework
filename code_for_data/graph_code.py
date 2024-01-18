@@ -14,7 +14,7 @@ data = pd.read_csv('vscode final project data CSV.csv')
 # List of the countries in the dataset
 countries = data['Entity'].unique()
 
-    # Creates a separate plot for each country
+# Creates a separate plot for each country
 for country in countries:
     # Filters data for the specific country
     country_data = data[data['Entity'] == country]
@@ -38,7 +38,7 @@ for country in countries:
 # List of the countries in the dataset
 countries = data['Entity'].unique()
 
-    # Creates a separate plot for each country
+# Creates a separate plot for each country
 for country in countries:
     # Filters data for the specific country
     country_data = data[data['Entity'] == country]
