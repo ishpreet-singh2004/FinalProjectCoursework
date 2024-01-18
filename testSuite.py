@@ -10,41 +10,42 @@ from unitTesting import creating_the_graphs
 
 data = pd.read_csv('vscode final project data CSV.csv')
 
-class testingFunction(unittest.TestCase):
+class TestingFunction(unittest.TestCase):
 
-    def test_stacked_area_chart(self):
-        # Test stacked area chart creation
+    def test_stacked_area_chart_food(self):
+        # Test stacked area chart creation for food
         chart = creating_the_graphs(data, graph_type='line_graph_food')
         self.assertIsInstance(chart, plt.Figure)
 
-    def test_grouped_bar_chart(self):
-        # Test grouped bar chart creation
+    def test_stacked_area_chart_undernourishment(self):
+        # Test stacked area chart creation for undernourishment
         chart = creating_the_graphs(data, graph_type='line_graph_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
-    
-    def test_stacked_area_chart(self):
-        # Test stacked area chart creation
+
+    def test_heatmap_chart_food(self):
+        # Test heatmap chart creation for food
         chart = creating_the_graphs(data, graph_type='heatmap_food')
         self.assertIsInstance(chart, plt.Figure)
 
-    def test_grouped_bar_chart(self):
-        # Test grouped bar chart creation
+    def test_heatmap_chart_undernourishment(self):
+        # Test heatmap chart creation for undernourishment
         chart = creating_the_graphs(data, graph_type='heatmap_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
 
-    def test_grouped_bar_chart(self):
-        # Test grouped bar chart creation
+    def test_grouped_bar_chart_food(self):
+        # Test grouped bar chart creation for food
         chart = creating_the_graphs(data, graph_type='grouped_bar_food')
         self.assertIsInstance(chart, plt.Figure)
 
-    def test_grouped_bar_chart(self):
-        # Test grouped bar chart creation
+    def test_grouped_bar_chart_undernourishment(self):
+        # Test grouped bar chart creation for undernourishment
         chart = creating_the_graphs(data, graph_type='grouped_bar_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_bubble_chart(self):
         # Test bubble chart creation
         chart = creating_the_graphs(data, graph_type='bubble_graph')
+        # Adjust this based on the actual return type of px.scatter()
         self.assertIsInstance(chart, type(px.scatter()))
 
     def test_invalid_chart_type(self):
