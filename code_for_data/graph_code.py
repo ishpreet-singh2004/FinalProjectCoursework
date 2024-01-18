@@ -40,7 +40,7 @@ for country in countries:
 
     # Plotting for nourishment
     plt.figure(figsize=(10, 6))
-    plt.plot(country_data['Year'], country_data['Prevalence of undernourishment (%)'], label='Undernourishment')
+    plt.plot(country_data['Year'], country_data['Deaths by malnutrition per 100000 people'], label='Undernourishment')
 
     # Adding labels and title
     plt.xlabel('Year')
@@ -75,7 +75,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Pivot the data for heatmap
-heatmap_data = data.pivot(index='Entity', columns='Year', values=['Prevalence of undernourishment (%)'])
+heatmap_data = data.pivot(index='Entity', columns='Year', values=['Deaths by malnutrition per 100000 people'])
 
 # Plotting heatmap for undernourishment
 plt.figure(figsize=(24, 24))
@@ -104,7 +104,7 @@ import matplotlib.pyplot as plt
 
 # Plotting grouped bar chart for undernourishment
 plt.figure(figsize=(30, 12))
-sns.barplot(x='Entity', y='Prevalence of undernourishment (%)', hue='Year', data=data,)
+sns.barplot(x='Entity', y='Deaths by malnutrition per 100000 people', hue='Year', data=data,)
 plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
 plt.xlabel('Country')
 plt.ylabel('Values')
@@ -115,7 +115,7 @@ plt.show()
 import plotly.express as px
 
 # Plotting bubble chart for both variables being compared to each other
-fig = px.scatter(data, x='Total food expenditure per year', y='Prevalence of undernourishment (%)', size='Total food expenditure per year', color='Entity', animation_frame='Year',
+fig = px.scatter(data, x='Total food expenditure per year', y='Deaths by malnutrition per 100000 people', size='Total food expenditure per year', color='Entity', animation_frame='Year',
                  title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
-                 labels={'Total food expenditure per year': 'Total Food Expenditure', 'Prevalence of undernourishment (%)': 'Undernourishment'})
+                 labels={'Total food expenditure per year': 'Total Food Expenditure', 'Deaths by malnutrition per 100000 people': 'Undernourishment'})
 fig.show()

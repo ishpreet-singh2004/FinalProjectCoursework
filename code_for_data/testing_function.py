@@ -17,7 +17,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     #Here all of the possible outcomes for all the graphs which i have created. 
 
     #Parameters:
-    # - data: DataFrame, the input data containing 'Entity', 'Year', 'Total food expenditure per year', and 'Prevalence of undernourishment (%)'.
+    # - data: DataFrame, the input data containing 'Entity', 'Year', 'Total food expenditure per year', and 'Deaths by malnutrition per 100000 people'.
     # - graph_type: str, the type of graph to create. Options: 'linear graph (food/undernourishment)', 'heatmap (food/undernourishment)' , 'grouped_bar (food/undernourishment)', 'bubble_chart'.
     # - countries: list, a list of country names to include in the graph (applies to 'grouped_bar' graph_type).
     # - returns the different types of graphs which i have made using the data. 
@@ -59,7 +59,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
 
             # Plotting
             plt.figure(figsize=(10, 6))
-            plt.plot(country_data['Year'], country_data['Prevalence of undernourishment (%)'], label='Undernourishment')
+            plt.plot(country_data['Year'], country_data['Deaths by malnutrition per 100000 people'], label='Undernourishment')
 
             # Adding labels and title
             plt.xlabel('Year')
@@ -86,7 +86,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     
     elif graph_type == 'heatmap_undernourishment':
         # Pivot the data for heatmap
-        heatmap_data = data.pivot(index='Entity', columns='Year', values=['Prevalence of undernourishment (%)'])
+        heatmap_data = data.pivot(index='Entity', columns='Year', values=['Deaths by malnutrition per 100000 people'])
 
         # Plotting heatmap
         plt.figure(figsize=(24, 24))
@@ -109,7 +109,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     elif graph_type == 'grouped_bar_undernourishment':
         # Plotting grouped bar chart
         plt.figure(figsize=(30, 12))
-        sns.barplot(x='Entity', y='Prevalence of undernourishment (%)', hue='Year', data=data,)
+        sns.barplot(x='Entity', y='Deaths by malnutrition per 100000 people', hue='Year', data=data,)
         plt.title('Grouped Bar Chart of Food Expenditure and Undernourishment by Country')
         plt.xlabel('Country')
         plt.ylabel('Values')
@@ -118,9 +118,9 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
 
     elif graph_type == 'bubble_graph':
         # Plotting bubble chart
-        fig = px.scatter(data, x='Total food expenditure per year', y='Prevalence of undernourishment (%)', size='Total food expenditure per year', color='Entity', animation_frame='Year',
+        fig = px.scatter(data, x='Total food expenditure per year', y='Deaths by malnutrition per 100000 people', size='Total food expenditure per year', color='Entity', animation_frame='Year',
                          title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
-                         labels={'Total food expenditure per year': 'Total Food Expenditure', 'Prevalence of undernourishment (%)': 'Undernourishment'})
+                         labels={'Total food expenditure per year': 'Total Food Expenditure', 'Deaths by malnutrition per 100000 people': 'Undernourishment'})
         return plt.gcf()
     else:
         raise ValueError(f"Unsupported graph_type: {graph_type}")

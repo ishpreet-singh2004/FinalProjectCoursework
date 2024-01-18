@@ -1,397 +1,295 @@
-Entity,Year,Total food expenditure per year,Prevalence of undernourishment (%)
-Algeria,2017,651.2,2.7
-Algeria,2018,645.6,2.5
-Algeria,2019,556.1,2.5
-Algeria,2020,520.1,2.5
-Angola,2017,1144.6,15.4
-Angola,2018,893.6,15.7
-Angola,2019,451.1,17.9
-Angola,2020,513.1,20.8
-Argentina,2017,2715.9,3.1
-Argentina,2018,2139.8,3.4
-Argentina,2019,859.2,3.5
-Argentina,2020,1090.9,3.7
-Australia,2017,3016.0,2.5
-Australia,2018,3003.6,2.5
-Australia,2019,2546.8,2.5
-Australia,2020,2722.5,2.5
-Austria,2017,2434.6,2.5
-Austria,2018,2618.2,2.5
-Austria,2019,2291.1,2.5
-Austria,2020,2085.4,2.5
-Azerbaijan,2017,943.7,2.5
-Azerbaijan,2018,989.6,2.5
-Azerbaijan,2019,1093.2,2.5
-Azerbaijan,2020,1055.4,2.5
-Bangladesh,2017,546.7,12.5
-Bangladesh,2018,611.9,11.5
-Bangladesh,2019,649.3,11
-Bangladesh,2020,723.7,11.4
-Belarus,2017,1025.4,2.5
-Belarus,2018,1090.4,2.5
-Belarus,2019,923.1,2.5
-Belarus,2020,1014.7,2.5
-Belgium,2017,2834.2,2.5
-Belgium,2018,3034.7,2.5
-Belgium,2019,2694.4,2.5
-Belgium,2020,2454.3,2.5
-Bolivia,2017,667.5,12.5
-Bolivia,2018,696.3,12.1
-Bolivia,2019,649.1,11.9
-Bolivia,2020,602.9,13.9
-Bosnia and Herzegovina,2017,1282.7,2.5
-Bosnia and Herzegovina,2018,1403.8,2.5
-Bosnia and Herzegovina,2019,1227.3,2.5
-Bosnia and Herzegovina,2020,1205.6,2.5
-Brazil,2017,954.6,2.5
-Brazil,2018,866.3,2.5
-Brazil,2019,599.6,2.6
-Brazil,2020,655.8,4.1
-Bulgaria,2017,1008.8,3
-Bulgaria,2018,1172.1,2.8
-Bulgaria,2019,1038.9,3
-Bulgaria,2020,1123.3,3
-Cambodia,2017,468.9,7.7
-Cambodia,2018,500.2,6.6
-Cambodia,2019,495.8,6
-Cambodia,2020,457.2,6.3
-Cameroon,2017,453.2,6.6
-Cameroon,2018,501.3,6.9
-Cameroon,2019,469.0,6.7
-Cameroon,2020,456.2,6.7
-Canada,2017,2291.3,2.5
-Canada,2018,2350.9,2.5
-Canada,2019,2098.3,2.5
-Canada,2020,2294.1,2.5
-Chile,2017,1521.1,2.9
-Chile,2018,1613.5,2.7
-Chile,2019,1275.6,2.6
-Chile,2020,1230.3,2.6
-China,2017,737.0,2.5
-China,2018,814.5,2.5
-China,2019,743.2,2.5
-China,2020,882.6,2.5
-Colombia,2017,827.4,5.9
-Colombia,2018,869.2,6.2
-Colombia,2019,561.5,7.2
-Colombia,2020,555.2,8.2
-Costa Rica,2017,2109.1,3.2
-Costa Rica,2018,2143.0,3.2
-Costa Rica,2019,2220.0,3.4
-Costa Rica,2020,2211.1,3.4
-Cote d'Ivoire,2017,424.2,6
-Cote d'Ivoire,2018,452.9,5.2
-Cote d'Ivoire,2019,598.9,4.7
-Cote d'Ivoire,2020,593.0,4.4
-Croatia,2017,2290.4,2.5
-Croatia,2018,2564.7,2.5
-Croatia,2019,1699.3,2.5
-Croatia,2020,1762.3,2.5
-Czechia,2017,1610.7,2.5
-Czechia,2018,1835.8,2.5
-Czechia,2019,1568.2,2.5
-Czechia,2020,1630.2,2.5
-Denmark,2017,3004.2,2.5
-Denmark,2018,3220.0,2.5
-Denmark,2019,2806.4,2.5
-Denmark,2020,3019.4,2.5
-Dominican Republic,2017,1450.7,6.2
-Dominican Republic,2018,1508.7,6.1
-Dominican Republic,2019,1416.3,7
-Dominican Republic,2020,1438.5,6.7
-Ecuador,2017,995.2,10.7
-Ecuador,2018,1015.6,11.6
-Ecuador,2019,889.8,13.7
-Ecuador,2020,814.8,15.4
-Egypt,2017,595.1,4.9
-Egypt,2018,684.9,4.9
-Egypt,2019,1025.6,5
-Egypt,2020,1240.0,5.1
-El Salvador,2017,890.8,9.2
-El Salvador,2018,922.2,8.4
-El Salvador,2019,839.2,8.3
-El Salvador,2020,742.2,7.7
-Estonia,2017,2069.7,2.5
-Estonia,2018,2317.7,2.5
-Estonia,2019,2075.1,2.5
-Estonia,2020,2199.6,2.5
-Ethiopia,2017,254.9,15.7
-Ethiopia,2018,257.4,18.2
-Ethiopia,2019,174.2,21.9
-Ethiopia,2020,233.8,24.9
-Finland,2017,2736.7,2.5
-Finland,2018,2908.7,2.5
-Finland,2019,2563.4,2.5
-Finland,2020,2809.5,2.5
-France,2017,2786.4,2.5
-France,2018,2983.4,2.5
-France,2019,2658.7,2.5
-France,2020,2846.3,2.5
-Georgia,2017,876.9,8.1
-Georgia,2018,922.5,7.8
-Georgia,2019,1001.7,7.8
-Georgia,2020,1138.7,7.6
-Germany,2017,2379.6,2.5
-Germany,2018,2562.9,2.5
-Germany,2019,2267.8,2.5
-Germany,2020,2317.7,2.5
-Ghana,2017,576.8,7.1
-Ghana,2018,627.0,6.2
-Ghana,2019,505.2,5.2
-Ghana,2020,566.2,4.1
-Greece,2017,2333.4,2.5
-Greece,2018,2510.6,2.5
-Greece,2019,2111.1,2.5
-Greece,2020,2325.7,2.5
-Guatemala,2017,1601.9,16.3
-Guatemala,2018,1662.5,16.2
-Guatemala,2019,1386.8,16.3
-Guatemala,2020,1365.0,16
-Honduras,2017,614.3,13.2
-Honduras,2018,645.9,13.1
-Honduras,2019,507.0,13.3
-Honduras,2020,477.0,15.3
-Hong Kong,2017,4635.2,2.5
-Hong Kong,2018,5002.2,2.5
-Hong Kong,2019,4318.9,2.5
-Hong Kong,2020,4181.5,2.5
-Hungary,2017,1306.8,2.5
-Hungary,2018,1449.4,2.5
-Hungary,2019,1170.9,2.5
-Hungary,2020,1282.1,2.5
-India,2017,355.2,13.2
-India,2018,372.2,13.3
-India,2019,337.5,14.6
-India,2020,325.9,16.3
-Indonesia,2017,693.1,5.9
-Indonesia,2018,696.5,5.9
-Indonesia,2019,700.9,6.2
-Indonesia,2020,693.2,6.5
-Iran,2017,761.4,5.2
-Iran,2018,657.9,5.2
-Iran,2019,846.1,4.9
-Iran,2020,1109.3,4.1
-Iraq,2017,765.4,18.8
-Iraq,2018,739.5,18.1
-Iraq,2019,806.4,17.4
-Iraq,2020,759.8,15.9
-Ireland,2017,1972.9,2.5
-Ireland,2018,2098.7,2.5
-Ireland,2019,1778.8,2.5
-Ireland,2020,1919.0,2.5
-Israel,2017,3501.6,2.5
-Israel,2018,3611.8,2.5
-Israel,2019,3373.9,2.5
-Israel,2020,3008.4,2.5
-Italy,2017,2806.6,2.5
-Italy,2018,2986.9,2.5
-Italy,2019,2710.4,2.5
-Italy,2020,2820.4,2.5
-Japan,2017,3304.7,2.5
-Japan,2018,3417.5,2.5
-Japan,2019,3116.2,2.8
-Japan,2020,3038.5,3.2
-Jordan,2017,1059.9,8.8
-Jordan,2018,1091.1,11.2
-Jordan,2019,790.9,14.6
-Jordan,2020,783.2,16.9
-Kazakhstan,2017,2059.3,2.5
-Kazakhstan,2018,2144.3,2.5
-Kazakhstan,2019,2102.3,2.5
-Kazakhstan,2020,2217.4,2.5
-Kenya,2017,646.6,25.1
-Kenya,2018,729.4,24.7
-Kenya,2019,782.8,25.6
-Kenya,2020,826.9,26.9
-Kuwait,2017,1841.3,2.5
-Kuwait,2018,1910.5,2.5
-Kuwait,2019,1872.9,2.5
-Kuwait,2020,1803.9,2.7
-Laos,2017,831.6,5.6
-Laos,2018,871.4,5.3
-Laos,2019,836.8,5.4
-Laos,2020,867.4,5.1
-Latvia,2017,1648.6,2.5
-Latvia,2018,1820.8,2.5
-Latvia,2019,1764.9,2.5
-Latvia,2020,1816.7,2.5
-Lebanon,2017,1655.2,6.8
-Lebanon,2018,1796.3,7.1
-Lebanon,2019,248.8,9
-Lebanon,2020,364.3,10.9
-Lithuania,2017,2269.2,2.5
-Lithuania,2018,2521.1,2.5
-Lithuania,2019,2251.4,2.5
-Lithuania,2020,2692.4,2.5
-Malaysia,2017,1224.6,3.2
-Malaysia,2018,1410.7,2.7
-Malaysia,2019,1443.3,2.6
-Malaysia,2020,1526.1,2.5
-Mexico,2017,1452.9,6.1
-Mexico,2018,1499.9,6
-Mexico,2019,1326.0,6
-Mexico,2020,1361.8,6.1
-Montenegro,2017,1592.0,2.5
-Montenegro,2018,1763.9,2.5
-Montenegro,2019,1873.3,2.5
-Montenegro,2020,1922.2,2.5
-Morocco,2017,647.9,3.7
-Morocco,2018,693.3,3.8
-Morocco,2019,653.1,4.4
-Morocco,2020,601.1,5.6
-Myanmar,2017,437.8,3
-Myanmar,2018,466.7,2.6
-Myanmar,2019,490.2,2.5
-Myanmar,2020,513.4,3.1
-Netherlands,2017,2416.5,2.5
-Netherlands,2018,2621.0,2.5
-Netherlands,2019,2404.7,2.5
-Netherlands,2020,2481.7,2.5
-New Zealand,2017,3286.9,2.5
-New Zealand,2018,3277.8,2.5
-New Zealand,2019,3137.8,2.5
-New Zealand,2020,3241.9,2.5
-Nigeria,2017,920.2,10
-Nigeria,2018,1016.9,10.4
-Nigeria,2019,850.3,12
-Nigeria,2020,818.4,12.7
-North Macedonia,2017,1113.6,2.8
-North Macedonia,2018,1218.9,2.5
-North Macedonia,2019,1212.8,3.1
-North Macedonia,2020,1185.9,3.3
-Norway,2017,3576.5,2.5
-Norway,2018,3726.5,2.5
-Norway,2019,2814.1,2.5
-Norway,2020,2733.5,2.5
-Oman,2017,1336.6,8.4
-Oman,2018,1329.1,7.9
-Oman,2019,1300.4,8.8
-Oman,2020,1348.0,9.8
-Pakistan,2017,495.6,12.1
-Pakistan,2018,453.9,12.3
-Pakistan,2019,324.5,14.1
-Pakistan,2020,364.3,16.9
-Panama,2017,1378.3,6.7
-Panama,2018,1405.8,6
-Panama,2019,1230.9,5.4
-Panama,2020,1037.3,5.8
-Paraguay,2017,1176.5,7.8
-Paraguay,2018,1208.3,7.8
-Paraguay,2019,938.8,8.2
-Paraguay,2020,901.1,8.7
-Peru,2017,1156.1,7.6
-Peru,2018,1190.1,7.6
-Peru,2019,1112.3,8.1
-Peru,2020,1020.2,8.3
-Philippines,2017,916.6,7.5
-Philippines,2018,952.3,6.2
-Philippines,2019,1002.0,5.5
-Philippines,2020,945.5,5.2
-Poland,2017,1342.9,2.5
-Poland,2018,1480.3,2.5
-Poland,2019,1301.0,2.5
-Poland,2020,1516.4,2.5
-Portugal,2017,2428.0,2.5
-Portugal,2018,2629.4,2.5
-Portugal,2019,2449.1,2.5
-Portugal,2020,2688.4,2.5
-Romania,2017,1842.3,2.5
-Romania,2018,2040.9,2.5
-Romania,2019,1932.9,2.5
-Romania,2020,2018.3,2.5
-Russia,2017,1548.3,2.5
-Russia,2018,1517.0,2.5
-Russia,2019,1283.6,2.5
-Russia,2020,1299.8,2.5
-Saudi Arabia,2017,1648.7,3.7
-Saudi Arabia,2018,1689.6,3.8
-Saudi Arabia,2019,1741.5,3.9
-Saudi Arabia,2020,1771.8,3.7
-Serbia,2017,1076.8,4
-Serbia,2018,1225.9,3.8
-Serbia,2019,1046.7,3.7
-Serbia,2020,1143.7,3.3
-Slovakia,2017,1724.8,4.4
-Slovakia,2018,1925.6,3.9
-Slovakia,2019,1757.3,3.7
-Slovakia,2020,1916.9,3.8
-Slovenia,2017,1896.4,2.5
-Slovenia,2018,2063.3,2.5
-Slovenia,2019,1811.9,2.5
-Slovenia,2020,1828.0,2.5
-South Africa,2017,782.6,5.5
-South Africa,2018,828.1,5.7
-South Africa,2019,616.8,6.3
-South Africa,2020,597.0,6.9
-South Korea,2017,1832.1,2.5
-South Korea,2018,1951.4,2.5
-South Korea,2019,1544.0,2.5
-South Korea,2020,1500.9,2.5
-Spain,2017,2059.5,2.5
-Spain,2018,2217.9,2.5
-Spain,2019,2057.7,2.5
-Spain,2020,2158.4,2.5
-Sri Lanka,2017,829.1,4.3
-Sri Lanka,2018,822.5,4.1
-Sri Lanka,2019,714.9,3.7
-Sri Lanka,2020,779.9,3.4
-Sweden,2017,2878.2,2.5
-Sweden,2018,2893.8,2.5
-Sweden,2019,2588.7,2.5
-Sweden,2020,2601.9,2.5
-Switzerland,2017,3840.0,2.5
-Switzerland,2018,3908.8,2.5
-Switzerland,2019,3662.4,2.5
-Switzerland,2020,3970.2,2.5
-Tanzania,2017,197.8,23
-Tanzania,2018,205.8,23.3
-Tanzania,2019,212.2,23.4
-Tanzania,2020,226.0,22.6
-Thailand,2017,914.6,7.7
-Thailand,2018,1012.1,7.8
-Thailand,2019,882.8,8
-Thailand,2020,966.9,8.8
-Tunisia,2017,579.6,2.5
-Tunisia,2018,570.0,2.5
-Tunisia,2019,538.6,2.6
-Tunisia,2020,505.6,3.1
-Turkey,2017,1389.2,2.5
-Turkey,2018,1209.8,2.5
-Turkey,2019,841.2,2.5
-Turkey,2020,971.5,2.5
-Turkmenistan,2017,265.1,3.5
-Turkmenistan,2018,297.5,3.5
-Turkmenistan,2019,300.4,3.5
-Turkmenistan,2020,309.2,3.5
-Ukraine,2017,715.6,2.5
-Ukraine,2018,857.6,2.5
-Ukraine,2019,874.3,2.6
-Ukraine,2020,963.7,2.8
-United Arab Emirates,2017,1889.4,6.4
-United Arab Emirates,2018,1954.9,6.2
-United Arab Emirates,2019,2003.6,6
-United Arab Emirates,2020,1962.9,5.6
-United Kingdom,2017,2038.2,2.5
-United Kingdom,2018,2168.2,2.5
-United Kingdom,2019,1831.6,2.5
-United Kingdom,2020,1951.1,2.5
-United States,2017,2548.3,2.5
-United States,2018,2626.2,2.5
-United States,2019,2356.8,2.5
-United States,2020,2595.6,2.5
-Uruguay,2017,2187.2,2.5
-Uruguay,2018,2212.1,2.5
-Uruguay,2019,1526.6,2.5
-Uruguay,2020,1587.6,2.5
-Uzbekistan,2017,242.8,2.5
-Uzbekistan,2018,186.8,2.5
-Uzbekistan,2019,233.8,2.5
-Uzbekistan,2020,264.3,2.5
-Venezuela,2017,288.6,22.2
-Venezuela,2018,95.4,22.7
-Venezuela,2019,1.6,24.9
-Venezuela,2020,27.3,22.9
-Vietnam,2017,643.7,7.2
-Vietnam,2018,692.1,6.8
-Vietnam,2019,509.3,6.2
-Vietnam,2020,533.5,5.7
+Entity,Year,Total food expenditure per year,Deaths by malnutrition per 100000 people
+Algeria,2017,651.2,0.39
+Algeria,2018,645.6,0.38
+Algeria,2019,556.1,0.37
+Angola,2017,1144.6,16.48
+Angola,2018,893.6,15.54
+Angola,2019,451.1,15.04
+Argentina,2017,2715.9,2.36
+Argentina,2018,2139.8,2.31
+Argentina,2019,859.2,2.31
+Australia,2017,3016,0.28
+Australia,2018,3003.6,0.28
+Australia,2019,2546.8,0.28
+Austria,2017,2434.6,0.02
+Austria,2018,2618.2,0.01
+Austria,2019,2291.1,0.01
+Azerbaijan,2017,943.7,0.24
+Azerbaijan,2018,989.6,0.23
+Azerbaijan,2019,1093.2,0.22
+Bangladesh,2017,546.7,2.61
+Bangladesh,2018,611.9,2.29
+Bangladesh,2019,649.3,2.04
+Belarus,2017,1025.4,0.21
+Belarus,2018,1090.4,0.21
+Belarus,2019,923.1,0.2
+Belgium,2017,2834.2,1.09
+Belgium,2018,3034.7,1.08
+Belgium,2019,2694.4,1.07
+Bolivia,2017,667.5,10.5
+Bolivia,2018,696.3,10.27
+Bolivia,2019,649.1,10.07
+Bosnia and Herzegovina,2017,1282.7,0.05
+Bosnia and Herzegovina,2018,1403.8,0.05
+Bosnia and Herzegovina,2019,1227.3,0.05
+Brazil,2017,954.6,3.69
+Brazil,2018,866.3,3.68
+Brazil,2019,599.6,3.66
+Bulgaria,2017,1008.8,0.04
+Bulgaria,2018,1172.1,0.04
+Bulgaria,2019,1038.9,0.04
+Cambodia,2017,468.9,5.5
+Cambodia,2018,500.2,5.31
+Cambodia,2019,495.8,5.14
+Cameroon,2017,453.2,5.73
+Cameroon,2018,501.3,5.44
+Cameroon,2019,469,5.2
+Canada,2017,2291.3,0.36
+Canada,2018,2350.9,0.37
+Canada,2019,2098.3,0.37
+Chile,2017,1521.1,2.38
+Chile,2018,1613.5,2.37
+Chile,2019,1275.6,2.36
+China,2017,737,1.17
+China,2018,814.5,1.12
+China,2019,743.2,1.09
+Colombia,2017,827.4,2.75
+Colombia,2018,869.2,2.7
+Colombia,2019,561.5,2.66
+Costa Rica,2017,2109.1,0.43
+Costa Rica,2018,2143,0.42
+Costa Rica,2019,2220,0.42
+Cote d'Ivoire,2017,424.2,5.22
+Cote d'Ivoire,2018,452.9,4.95
+Cote d'Ivoire,2019,598.9,4.65
+Croatia,2017,2290.4,0.01
+Croatia,2018,2564.7,0.01
+Croatia,2019,1699.3,0.01
+Czechia,2017,1610.7,0.7
+Czechia,2018,1835.8,0.61
+Czechia,2019,1568.2,0.56
+Denmark,2017,3004.2,0.35
+Denmark,2018,3220,0.36
+Denmark,2019,2806.4,0.36
+Dominican Republic,2017,1450.7,4.7
+Dominican Republic,2018,1508.7,4.68
+Dominican Republic,2019,1416.3,4.65
+Ecuador,2017,995.2,5.27
+Ecuador,2018,1015.6,5.25
+Ecuador,2019,889.8,5.11
+Egypt,2017,595.1,1.6
+Egypt,2018,684.9,1.54
+Egypt,2019,1025.6,1.5
+El Salvador,2017,890.8,4.56
+El Salvador,2018,922.2,4.5
+El Salvador,2019,839.2,4.46
+Estonia,2017,2069.7,0.04
+Estonia,2018,2317.7,0.04
+Estonia,2019,2075.1,0.04
+Ethiopia,2017,254.9,14.66
+Ethiopia,2018,257.4,13.77
+Ethiopia,2019,174.2,12.9
+Finland,2017,2736.7,0.04
+Finland,2018,2908.7,0.04
+Finland,2019,2563.4,0.04
+France,2017,2786.4,2.13
+France,2018,2983.4,2.12
+France,2019,2658.7,2.12
+Georgia,2017,876.9,0.09
+Georgia,2018,922.5,0.08
+Georgia,2019,1001.7,0.08
+Germany,2017,2379.6,0.29
+Germany,2018,2562.9,0.27
+Germany,2019,2267.8,0.26
+Ghana,2017,576.8,10.96
+Ghana,2018,627,10.06
+Ghana,2019,505.2,9.56
+Greece,2017,2333.4,0.01
+Greece,2018,2510.6,0.01
+Greece,2019,2111.1,0.01
+Guatemala,2017,1601.9,17.4
+Guatemala,2018,1662.5,18.14
+Guatemala,2019,1386.8,18.63
+Honduras,2017,614.3,3.33
+Honduras,2018,645.9,3.26
+Honduras,2019,507,3.2
+Hungary,2017,1306.8,0.1
+Hungary,2018,1449.4,0.1
+Hungary,2019,1170.9,0.1
+India,2017,355.2,1.42
+India,2018,372.2,1.3
+India,2019,337.5,1.19
+Indonesia,2017,693.1,15.68
+Indonesia,2018,696.5,15.07
+Indonesia,2019,700.9,14.53
+Iran,2017,761.4,0.31
+Iran,2018,657.9,0.29
+Iran,2019,846.1,0.29
+Iraq,2017,765.4,0.3
+Iraq,2018,739.5,0.28
+Iraq,2019,806.4,0.26
+Ireland,2017,1972.9,0.08
+Ireland,2018,2098.7,0.08
+Ireland,2019,1778.8,0.08
+Israel,2017,3501.6,0.33
+Israel,2018,3611.8,0.33
+Israel,2019,3373.9,0.32
+Italy,2017,2806.6,0.3
+Italy,2018,2986.9,0.3
+Italy,2019,2710.4,0.29
+Japan,2017,3304.7,0.34
+Japan,2018,3417.5,0.34
+Japan,2019,3116.2,0.33
+Jordan,2017,1059.9,0.38
+Jordan,2018,1091.1,0.38
+Jordan,2019,790.9,0.37
+Kazakhstan,2017,2059.3,0.67
+Kazakhstan,2018,2144.3,0.6
+Kazakhstan,2019,2102.3,0.57
+Kenya,2017,646.6,16.75
+Kenya,2018,729.4,15.98
+Kenya,2019,782.8,15.4
+Kuwait,2017,1841.3,0.02
+Kuwait,2018,1910.5,0.02
+Kuwait,2019,1872.9,0.02
+Laos,2017,831.6,5.1
+Laos,2018,871.4,4.91
+Laos,2019,836.8,4.76
+Latvia,2017,1648.6,0.05
+Latvia,2018,1820.8,0.04
+Latvia,2019,1764.9,0.04
+Lebanon,2017,1655.2,0.26
+Lebanon,2018,1796.3,0.26
+Lebanon,2019,248.8,0.25
+Lithuania,2017,2269.2,0.07
+Lithuania,2018,2521.1,0.06
+Lithuania,2019,2251.4,0.06
+Malaysia,2017,1224.6,1.23
+Malaysia,2018,1410.7,1.2
+Malaysia,2019,1443.3,1.2
+Mexico,2017,1452.9,6.42
+Mexico,2018,1499.9,6.49
+Mexico,2019,1326,6.56
+Montenegro,2017,1592,0.1
+Montenegro,2018,1763.9,0.1
+Montenegro,2019,1873.3,0.09
+Morocco,2017,647.9,0.77
+Morocco,2018,693.3,0.74
+Morocco,2019,653.1,0.71
+Myanmar,2017,437.8,3.62
+Myanmar,2018,466.7,3.46
+Myanmar,2019,490.2,3.31
+Netherlands,2017,2416.5,0.31
+Netherlands,2018,2621,0.32
+Netherlands,2019,2404.7,0.33
+New Zealand,2017,3286.9,0.14
+New Zealand,2018,3277.8,0.14
+New Zealand,2019,3137.8,0.14
+Nigeria,2017,920.2,2.7
+Nigeria,2018,1016.9,2.46
+Nigeria,2019,850.3,2.28
+North Macedonia,2017,1113.6,0.02
+North Macedonia,2018,1218.9,0.02
+North Macedonia,2019,1212.8,0.02
+Norway,2017,3576.5,0.86
+Norway,2018,3726.5,0.78
+Norway,2019,2814.1,0.74
+Oman,2017,1336.6,0.14
+Oman,2018,1329.1,0.13
+Oman,2019,1300.4,0.12
+Pakistan,2017,495.6,4.24
+Pakistan,2018,453.9,3.78
+Pakistan,2019,324.5,3.5
+Panama,2017,1378.3,3
+Panama,2018,1405.8,2.94
+Panama,2019,1230.9,2.89
+Paraguay,2017,1176.5,5.92
+Paraguay,2018,1208.3,5.67
+Paraguay,2019,938.8,5.45
+Peru,2017,1156.1,3.57
+Peru,2018,1190.1,3.56
+Peru,2019,1112.3,3.55
+Philippines,2017,916.6,5.44
+Philippines,2018,952.3,5.2
+Philippines,2019,1002,5
+Poland,2017,1342.9,0.16
+Poland,2018,1480.3,0.16
+Poland,2019,1301,0.15
+Portugal,2017,2428,0.43
+Portugal,2018,2629.4,0.42
+Portugal,2019,2449.1,0.42
+Romania,2017,1842.3,0.25
+Romania,2018,2040.9,0.24
+Romania,2019,1932.9,0.23
+Russia,2017,1548.3,0.13
+Russia,2018,1517,0.12
+Russia,2019,1283.6,0.12
+Saudi Arabia,2017,1648.7,0.64
+Saudi Arabia,2018,1689.6,0.62
+Saudi Arabia,2019,1741.5,0.61
+Serbia,2017,1076.8,0.1
+Serbia,2018,1225.9,0.09
+Serbia,2019,1046.7,0.09
+Slovakia,2017,1724.8,0.1
+Slovakia,2018,1925.6,0.1
+Slovakia,2019,1757.3,0.09
+Slovenia,2017,1896.4,0.01
+Slovenia,2018,2063.3,0.01
+Slovenia,2019,1811.9,0.01
+South Africa,2017,782.6,4.92
+South Africa,2018,828.1,4.65
+South Africa,2019,616.8,4.45
+South Korea,2017,1832.1,0.16
+South Korea,2018,1951.4,0.16
+South Korea,2019,1544,0.17
+Spain,2017,2059.5,0.23
+Spain,2018,2217.9,0.23
+Spain,2019,2057.7,0.23
+Sri Lanka,2017,829.1,0.83
+Sri Lanka,2018,822.5,0.79
+Sri Lanka,2019,714.9,0.77
+Sweden,2017,2878.2,0.41
+Sweden,2018,2893.8,0.4
+Sweden,2019,2588.7,0.39
+Switzerland,2017,3840,0.33
+Switzerland,2018,3908.8,0.32
+Switzerland,2019,3662.4,0.31
+Tanzania,2017,197.8,17.23
+Tanzania,2018,205.8,16.22
+Tanzania,2019,212.2,15.37
+Thailand,2017,914.6,1.01
+Thailand,2018,1012.1,1
+Thailand,2019,882.8,0.99
+Tunisia,2017,579.6,0.24
+Tunisia,2018,570,0.23
+Tunisia,2019,538.6,0.23
+Turkey,2017,1389.2,1.02
+Turkey,2018,1209.8,0.96
+Turkey,2019,841.2,0.92
+Turkmenistan,2017,265.1,0.12
+Turkmenistan,2018,297.5,0.12
+Turkmenistan,2019,300.4,0.12
+Ukraine,2017,715.6,0.13
+Ukraine,2018,857.6,0.13
+Ukraine,2019,874.3,0.13
+United Arab Emirates,2017,1889.4,0.13
+United Arab Emirates,2018,1954.9,0.13
+United Arab Emirates,2019,2003.6,0.12
+United Kingdom,2017,2038.2,0.09
+United Kingdom,2018,2168.2,0.09
+United Kingdom,2019,1831.6,0.09
+United States,2017,2548.3,0.88
+United States,2018,2626.2,0.88
+United States,2019,2356.8,0.89
+Uruguay,2017,2187.2,1.83
+Uruguay,2018,2212.1,1.79
+Uruguay,2019,1526.6,1.76
+Uzbekistan,2017,242.8,0.04
+Uzbekistan,2018,186.8,0.04
+Uzbekistan,2019,233.8,0.04
+Venezuela,2017,288.6,1.93
+Venezuela,2018,95.4,1.96
+Venezuela,2019,1.6,2.02
+Vietnam,2017,643.7,0.13
+Vietnam,2018,692.1,0.13
+Vietnam,2019,509.3,0.12
