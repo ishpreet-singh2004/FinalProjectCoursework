@@ -45,7 +45,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
             plt.legend()
 
             # Show the plot
-            plt.show()
+            return plt.gcf()
 
     elif graph_type == 'line_graph_undernourishment':
         # Grouped Bar Chart
@@ -70,7 +70,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
             plt.legend()
 
             # Show the plot
-            plt.show()
+            return plt.gcf()
     
     elif graph_type == 'heatmap_food':
         # Pivot the data for heatmap
@@ -82,7 +82,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.title('Heatmap of Food Expenditure Across Years and Countries')
         plt.xlabel('Year')
         plt.ylabel('Entity')
-        plt.show()
+        return plt.gcf()
     
     elif graph_type == 'heatmap_undernourishment':
         # Pivot the data for heatmap
@@ -94,7 +94,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.title('Heatmap of Undernourishment Across Years and Countries')
         plt.xlabel('Year')
         plt.ylabel('Entity')
-        plt.show()
+        return plt.gcf()
 
     elif graph_type == 'grouped_bar_food':
         # Plotting grouped bar chart
@@ -104,7 +104,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.xlabel('Country')
         plt.ylabel('Values')
         plt.xticks(rotation=45, ha='right')
-        plt.show()
+        return plt.gcf()
     
     elif graph_type == 'grouped_bar_undernourishment':
         # Plotting grouped bar chart
@@ -114,7 +114,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.xlabel('Country')
         plt.ylabel('Values')
         plt.xticks(rotation=45, ha='right')
-        plt.show()
+        return plt.gcf()
 
     elif graph_type == 'bubble_graph':
         # Plotting bubble chart
@@ -122,6 +122,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
                          title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
                          labels={'Total food expenditure per year': 'Total Food Expenditure', 'Prevalence of undernourishment (%)': 'Undernourishment'})
         fig.show()
+        return plt.gcf()
     else:
         raise ValueError(f"Unsupported graph_type: {graph_type}")
 
