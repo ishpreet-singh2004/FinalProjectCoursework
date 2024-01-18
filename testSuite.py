@@ -5,51 +5,54 @@ import seaborn as sns
 import plotly
 import plotly.express as px
 
+# importing unittest module to help carry out the tests 
 import unittest
+# calling the function being used from the specifc file name
 from testing_function import creating_the_graphs
 
+# the data the tests will be using 
 data = pd.read_csv('vscode final project data CSV.csv')
 
 class TestingFunction(unittest.TestCase):
 
     def test_stacked_area_chart_food(self):
-        # Test stacked area chart creation for food
+        # Test for linear graph creation for food
         chart = creating_the_graphs(data, graph_type='line_graph_food')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_stacked_area_chart_undernourishment(self):
-        # Test stacked area chart creation for undernourishment
+        # Test for linear graph creation for deaths by malnutrition 
         chart = creating_the_graphs(data, graph_type='line_graph_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_heatmap_chart_food(self):
-        # Test heatmap chart creation for food
+        # Test for heatmap chart creation for food
         chart = creating_the_graphs(data, graph_type='heatmap_food')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_heatmap_chart_undernourishment(self):
-        # Test heatmap chart creation for undernourishment
+        # Test for heatmap chart creation for deaths by malnutrition 
         chart = creating_the_graphs(data, graph_type='heatmap_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_grouped_bar_chart_food(self):
-        # Test grouped bar chart creation for food
+        # Test for grouped bar chart creation for food
         chart = creating_the_graphs(data, graph_type='grouped_bar_food')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_grouped_bar_chart_undernourishment(self):
-        # Test grouped bar chart creation for undernourishment
+        # Test for grouped bar chart creation for deaths by malnutrition 
         chart = creating_the_graphs(data, graph_type='grouped_bar_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
     
     def test_bubble_chart(self):
-        # Test bubble chart creation
+        # Test for bubble chart creation
         chart = creating_the_graphs(data, graph_type='bubble_graph')
         # Adjust this based on the actual return type of px.scatter()
         self.assertIsInstance(chart, plt.Figure)
 
     def test_invalid_chart_type(self):
-        # Test invalid chart type
+        # Test for invalid chart type
         with self.assertRaises(ValueError):
             creating_the_graphs(data, graph_type='invalid_chart_type')
 
