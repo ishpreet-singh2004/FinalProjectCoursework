@@ -126,3 +126,4 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     else:
         raise ValueError(f"Unsupported graph_type: {graph_type}")
 
+#here im going to run the tests 
