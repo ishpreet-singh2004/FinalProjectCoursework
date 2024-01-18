@@ -45,7 +45,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
             # Show the plot (in this case return as its a function)
             return plt.gcf()
 
-    elif graph_type == 'line_graph_undernourishment':
+    elif graph_type == 'line_graph_deaths_by_malnutrition':
         # Grouped Bar Chart
         # List of the countries in the dataset
         countries = data['Entity'].unique()
@@ -83,7 +83,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         # returning the graph
         return plt.gcf()
     
-    elif graph_type == 'heatmap_undernourishment':
+    elif graph_type == 'heatmap_deaths_by_malnutrition':
         # Pivot the data for heatmap
         heatmap_data = data.pivot(index='Entity', columns='Year', values=['Deaths by malnutrition per 100000 people'])
 
@@ -106,11 +106,11 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.xticks(rotation=45, ha='right')
         return plt.gcf()
     
-    elif graph_type == 'grouped_bar_undernourishment':
+    elif graph_type == 'grouped_bar_deaths_by_malnutrition':
         # Plotting grouped bar chart
         plt.figure(figsize=(30, 12))
         sns.barplot(x='Entity', y='Deaths by malnutrition per 100000 people', hue='Year', data=data,)
-        plt.title('Grouped Bar Chart of Food Expenditure and Deaths by malnutrition by Country')
+        plt.title('Grouped Bar Chart of Deaths by malnutrition by Country')
         plt.xlabel('Country')
         plt.ylabel('Values')
         plt.xticks(rotation=45, ha='right')
@@ -120,7 +120,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     elif graph_type == 'bubble_graph':
         # Plotting bubble chart
         fig = px.scatter(data, x='Total food expenditure per year', y='Deaths by malnutrition per 100000 people', size='Total food expenditure per year', color='Entity', animation_frame='Year',
-                         title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
+                         title='Bubble Chart of Food Expenditure vs Deaths by malnutrition Over Years',
                          labels={'Total food expenditure per year': 'Total Food Expenditure', 'Deaths by malnutrition per 100000 people': 'Deaths by malnutrition'})
         # returning the graph
         return plt.gcf()

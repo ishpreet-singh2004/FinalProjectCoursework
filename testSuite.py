@@ -22,7 +22,7 @@ class TestingFunction(unittest.TestCase):
 
     def test_stacked_area_chart_undernourishment(self):
         # Test for linear graph creation for deaths by malnutrition 
-        chart = creating_the_graphs(data, graph_type='line_graph_undernourishment')
+        chart = creating_the_graphs(data, graph_type='line_graph_deaths_by_malnutrition')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_heatmap_chart_food(self):
@@ -32,7 +32,7 @@ class TestingFunction(unittest.TestCase):
 
     def test_heatmap_chart_undernourishment(self):
         # Test for heatmap chart creation for deaths by malnutrition 
-        chart = creating_the_graphs(data, graph_type='heatmap_undernourishment')
+        chart = creating_the_graphs(data, graph_type='heatmap_udeaths_by_malnutrition')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_grouped_bar_chart_food(self):
@@ -42,7 +42,7 @@ class TestingFunction(unittest.TestCase):
 
     def test_grouped_bar_chart_undernourishment(self):
         # Test for grouped bar chart creation for deaths by malnutrition 
-        chart = creating_the_graphs(data, graph_type='grouped_bar_undernourishment')
+        chart = creating_the_graphs(data, graph_type='grouped_bar_deaths_by_malnutrition')
         self.assertIsInstance(chart, plt.Figure)
     
     def test_bubble_chart(self):
