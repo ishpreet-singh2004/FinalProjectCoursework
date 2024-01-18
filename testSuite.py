@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import plotly
 import plotly.express as px
 
 import unittest
@@ -40,7 +41,12 @@ class TestingFunction(unittest.TestCase):
         # Test grouped bar chart creation for undernourishment
         chart = creating_the_graphs(data, graph_type='grouped_bar_undernourishment')
         self.assertIsInstance(chart, plt.Figure)
-
+    
+    def test_bubble_chart(self):
+        # Test bubble chart creation
+        chart = creating_the_graphs(data, graph_type='bubble_graph')
+        # Adjust this based on the actual return type of px.scatter()
+        self.assertIsInstance(chart, plt.Figure)
 
     def test_invalid_chart_type(self):
         # Test invalid chart type
