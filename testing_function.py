@@ -121,7 +121,6 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         fig = px.scatter(data, x='Total food expenditure per year', y='Prevalence of undernourishment (%)', size='Total food expenditure per year', color='Entity', animation_frame='Year',
                          title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
                          labels={'Total food expenditure per year': 'Total Food Expenditure', 'Prevalence of undernourishment (%)': 'Undernourishment'})
-        fig.show()
         return plt.gcf()
     else:
         raise ValueError(f"Unsupported graph_type: {graph_type}")
