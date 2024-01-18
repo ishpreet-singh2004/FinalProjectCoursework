@@ -2,6 +2,8 @@ from sys import displayhook
 import matplotlib.pyplot as plt 
 import numpy as np
 import pandas as pd
+import seaborn as sns
+import plotly.express as px
 
 #Code to display and call data which I am analysing (csv file).
 

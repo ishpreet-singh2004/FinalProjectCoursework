@@ -1,3 +1,17 @@
+from sys import displayhook
+import matplotlib.pyplot as plt 
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import plotly.express as px
+
+#Code to display and call data which I am analysing (csv file).
+
+pd.options.display.max_rows = 400
+
+data = pd.read_csv('vscode final project data CSV.csv')
+# displayhook(data)
+
 def creating_the_graphs(data, graph_type='stacked_area', countries=None):
     
     #Create complex and informative graphs based on the data which i have cleansed. 
@@ -102,7 +116,7 @@ def creating_the_graphs(data, graph_type='stacked_area', countries=None):
         plt.ylabel('Values')
         plt.xticks(rotation=45, ha='right')
         plt.show()
-        
+
     elif graph_type == 'bubble_graph':
         # Plotting bubble chart
         fig = px.scatter(data, x='Total food expenditure per year', y='Prevalence of undernourishment (%)', size='Total food expenditure per year', color='Entity', animation_frame='Year',
