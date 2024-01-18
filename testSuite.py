@@ -6,7 +6,7 @@ import plotly
 import plotly.express as px
 
 import unittest
-from code_for_data.testing_function import creating_the_graphs
+from testing_function import creating_the_graphs
 
 data = pd.read_csv('vscode final project data CSV.csv')
 
