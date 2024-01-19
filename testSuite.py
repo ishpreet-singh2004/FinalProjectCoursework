@@ -32,7 +32,7 @@ class TestingFunction(unittest.TestCase):
 
     def test_heatmap_chart_undernourishment(self):
         # Test for heatmap chart creation for deaths by malnutrition 
-        chart = creating_the_graphs(data, graph_type='heatmap_udeaths_by_malnutrition')
+        chart = creating_the_graphs(data, graph_type='heatmap_deaths_by_malnutrition')
         self.assertIsInstance(chart, plt.Figure)
 
     def test_grouped_bar_chart_food(self):
