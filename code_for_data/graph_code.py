@@ -34,7 +34,7 @@ for country in countries:
     # Show the plot
     plt.show()
         
-# Grouped Bar Chart
+# Line graph
 # List of the countries in the dataset
 countries = data['Entity'].unique()
 
