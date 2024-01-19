@@ -103,7 +103,7 @@ plt.show()
     
 # Plotting bubble chart
 fig = px.scatter(data, x='Total food expenditure per year', y='Deaths by malnutrition per 100000 people', size='Total food expenditure per year', color='Entity', animation_frame='Year',
-                    title='Bubble Chart of Food Expenditure vs Undernourishment Over Years',
+                    title='Bubble Chart of Food Expenditure vs Death by malnourishment Over Years',
                     labels={'Total food expenditure per year': 'Total Food Expenditure', 'Deaths by malnutrition per 100000 people': 'Deaths by malnutrition'})
 # returning the graph
 plt.show()
